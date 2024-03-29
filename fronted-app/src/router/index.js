@@ -31,15 +31,16 @@ const router = createRouter({
       component: ShowProducts
     },
     {
-      path: '/editProduct/:id',
-      name: 'editProduct',
-      component: EditProduct
-    },
-    {
       path: '/createProduct',
       name: 'createProduct',
       component: CreateProduct
     },
+    {
+      path: '/editProduct/:id',
+      name: 'editProduct',
+      component: EditProduct
+    },
+
   ]
 })
 
